@@ -7,7 +7,7 @@ import streamlit as st
 
 OPENAI_API_KEY="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"
 #ChatOpenAI 초기화
-llm = ChatOpenAI(model='gpt-4o-mini')
+llm = ChatOpenAI()
 
 
 #프롬프트 템플릿 생성
